@@ -122,16 +122,29 @@ article:hover .card {
 }
 
 #bann-title {
+  padding: 0;
+  height: 35vh;
+  overflow: hidden;
   padding-top: 10vh;
   text-align: center;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 25vh;
-  background-image: url('../img/bg4.jpg');
-  background-attachment: fixed;
-  background-size: cover;
-  filter: grayscale(100%);
+  position: relative;
+}
+
+#bann-title img {
+  width: 100%;
+  filter: grayscale(10%) brightness(60%) blur(2px);
+  transform: scale(1.01);
+  z-index: -100;
+}
+
+#bann-title article {
+  color: white;
+  position: absolute;
+  top: 22vh;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
 }
 
 #bann-title article h2 {
