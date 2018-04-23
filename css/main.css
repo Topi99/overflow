@@ -142,7 +142,7 @@ article:hover .card {
   width: 100%;
   filter: grayscale(10%) brightness(60%) blur(2px);
   transform: scale(1.01);
-  z-index: -100;
+  
 }
 
 #bann-title article {
