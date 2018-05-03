@@ -197,7 +197,10 @@ button.btn-prom {
   box-shadow: 0px 1px 3px rgba(0,0,0,.5);
   -webkit-transition: .4s ease-out;
 }
+.col-sm > a {
 
+  font-size: 1.3vw;
+}
 .btn-prom.btn-anim {
   margin: 0;
 }
@@ -249,7 +252,7 @@ button.btn-prom {
     }
     .product-data .product-description {
       padding-top: 20px;
-      font-size: 95%;
+      font-size: 1.3vw;
     }
 
   .product-extra {
